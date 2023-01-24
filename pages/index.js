@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
+import Sidebar from './Components/Sidebar'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -14,10 +15,19 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
-        <h1>hello tailwindcss</h1>
-        
+      <main className="flex min-h-screen max-w-5xl mx-auto ">
+
+        {/* sidebar */}
+        <Sidebar/>
+        {/* feed */}
+
+        {/* widgets */}
+
+        {/* model */} 
       </main>
+
+    
+    
     </>
   )
 }
