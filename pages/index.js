@@ -2,6 +2,7 @@ import Head from 'next/head'
 import { Inter } from '@next/font/google'
 import Sidebar from './Components/Sidebar'
 import Feed from './Components/Feed'
+import Widgets from './Components/Widgets'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,8 +21,10 @@ export default function Home() {
         <Sidebar/>
         {/* feed */}
         <Feed/>
-
+        
         {/* widgets */}
+
+        <Widgets/>
 
         {/* model */} 
       </main>
