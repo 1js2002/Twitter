@@ -6,7 +6,7 @@ import Widgets from './Components/Widgets'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+export default function Home({newsResults}) {
   return (
     <>
       <Head>
@@ -24,7 +24,7 @@ export default function Home() {
         
         {/* widgets */}
 
-        <Widgets/>
+        <Widgets newsResults = {newsResults.articles}/>
 
         {/* model */} 
       </main>
@@ -33,4 +33,16 @@ export default function Home() {
     
     </>
   )
+}
+// https://saurav.tech/NewsAPI/top-headlines/category/business/us.json
+
+export async function getServerSideProps(){
+  const newsResults = await fetch(
+    "https://saurav.tech/NewsAPI/top-headlines/category/business/us.json"
+  ).then((res)=> res.json());
+  return{
+    props:{
+      newsResults,
+    }
+  }
 }
