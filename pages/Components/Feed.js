@@ -9,7 +9,7 @@ export default function Feed() {
     username: "1js2002",
     userImg:"https://pbs.twimg.com/profile_images/1529162618786590724/JhT_Ffgz_400x400.jpg",
     img: "https://www.deccanherald.com/sites/dh/files/styles/largehorizontal/public/p2-1176473-1672391454.png?itok=GGeLaOgb",
-    text: "puss",
+    text: "uh i don't know",
     timestamp: "2 hours ago"
   },
   {
