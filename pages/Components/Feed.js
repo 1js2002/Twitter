@@ -9,7 +9,7 @@ export default function Feed() {
     username: "1js2002",
     userImg:"https://pbs.twimg.com/profile_images/1529162618786590724/JhT_Ffgz_400x400.jpg",
     img: "https://www.deccanherald.com/sites/dh/files/styles/largehorizontal/public/p2-1176473-1672391454.png?itok=GGeLaOgb",
-    text: "uh i don't know",
+    text: "UH ERRRR I DUNNO",
     timestamp: "2 hours ago"
   },
   {
@@ -18,7 +18,7 @@ export default function Feed() {
     username: "1js2023",
     userImg:"https://pbs.twimg.com/profile_images/1529162618786590724/JhT_Ffgz_400x400.jpg",
     img: "https://mamasgeeky.com/wp-content/uploads/2022/11/puss-in-boots-the-last-wish-wolf-scary.jpg",
-    text: "death",
+    text: "MEOW MEOW *****",
     timestamp: "3 hours ago"
   }
 ]
