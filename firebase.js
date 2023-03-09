@@ -8,7 +8,7 @@ import { getStorage } from "firebase/syorage";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: process.env.FIREBASE_API_KEY,
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
   authDomain: "twitterfinal-8e753.firebaseapp.com",
   projectId: "twitterfinal-8e753",
   storageBucket: "twitterfinal-8e753.appspot.com",
